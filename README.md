@@ -1,6 +1,6 @@
-# php_test
+# php challenge
 
-My solution to a simple php challenge.
+My solution to a php challenge.
 
 ## Prova
 
