@@ -1,6 +1,5 @@
 <?php
 
-require_once "classes/BaseObjectDrawer.php";
 require_once "classes/XDrawer.php";
 require_once "classes/CrossDrawer.php";
 
@@ -8,12 +7,13 @@ class Main
 {
   public static function main()
   {
+    self::clearScreen();
     while (true) {
       $input = readline("C or X? ");
       if ($input == "C" || $input == "c") {
-        CrossDrawer::draw();
+        CrossDrawer::draw_on_screen();
       } else if ($input == "X" || $input == "x") {
-        XDrawer::draw();
+        XDrawer::draw_on_screen();
       } else {
         echo "Invalid input\n";
       }
