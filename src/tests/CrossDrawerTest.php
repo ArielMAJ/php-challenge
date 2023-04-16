@@ -1,6 +1,5 @@
 <?php
 use PHPUnit\Framework\TestCase;
-// use classes\CrossDrawer\CrossDrawer;
 
 require_once "classes/CrossDrawer.php";
 
@@ -14,7 +13,7 @@ final class CrossDrawerTest extends TestCase
             CrossDrawer::get_object()
         );
     }
-    public function testReturnType(): void
+    public function testGetObjectReturnTypeIsString(): void
     {
         $this->assertIsString(
             CrossDrawer::get_object()
