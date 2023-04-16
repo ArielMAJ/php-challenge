@@ -75,3 +75,4 @@ Feel free to contact me, open issues or a discussion if you have any questions o
 - HTML/CSS/JS+Python+Jinja: https://github.com/ArielMAJ/CoGES_Web_App
 - React (incomplete project): https://github.com/ArielMAJ/Alura_7DaysOfCode
 - HTML/CSS: https://github.com/ArielMAJ/arielmaj.github.io
+
